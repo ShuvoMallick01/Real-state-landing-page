@@ -1,0 +1,531 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.row {
+  margin: auto;
+  max-width: 1200px;
+}
+
+a {
+  text-decoration: none;
+  color: #000339;
+}
+
+/* --------------------- */
+/* Header css start */
+header {
+  padding: 30px 0;
+  background-color: #e6f0ff;
+}
+
+.flex-align-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-menu {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 100px;
+  align-items: center;
+  display: inline-block;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.menus ul li {
+  padding: 5px 10px;
+  list-style: none;
+  display: inline-block;
+  font-size: 15px;
+}
+
+.menus ul li a {
+  color: #4f5361;
+  transition: "0.3s";
+}
+
+.menus ul li a:hover {
+  color: #000339;
+}
+
+.sign-up {
+  background-color: transparent;
+  border: none;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #0f1b4c;
+}
+
+.register {
+  background-color: #0f1b4c;
+  border-style: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #f2f4f8;
+}
+
+/* Header css end */
+
+/* ----------------------- */
+
+/* Main Section CSS STart */
+p {
+  color: #7d8589;
+  font-weight: 500;
+  size: 16px;
+}
+
+.slider {
+  background-color: #e6f0ff;
+}
+
+.site-tagline-text p {
+  font-size: 18px;
+  color: #687690;
+  line-height: 32px;
+}
+
+.site-tagline-text h1 {
+  color: #000336;
+  font-size: 64px;
+  font-weight: 700px;
+  line-height: 76px;
+  padding-bottom: 10px;
+}
+
+.blue-bg-button {
+  background-color: #0f1b4c;
+  border-style: none;
+  border-radius: 10px;
+  padding: 13px 28px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #f2f4f8;
+  margin-top: 32px;
+}
+
+.slider-img {
+  width: 40%;
+}
+
+.slider-img img {
+  width: 100%;
+}
+
+/* Main Section CSS Start */
+
+/* =========================== */
+
+/* Comapnies Review CSS Start*/
+
+.comapnies-review {
+  padding: 100px 0px;
+}
+
+.logo-description {
+  font-size: 15px;
+}
+
+.comapnies-reivew {
+  color: #ffca56;
+  text-align: end;
+}
+
+.comapny-logos {
+  padding-top: 90px;
+}
+/* Comapnies Review CSS End*/
+
+/* ==============***============= */
+
+/* How its works works start CSS */
+.work-wrap-icon {
+  width: 600px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.work-line {
+  width: 40px;
+  margin: auto;
+  border-top: 3px solid #000339;
+}
+
+.work-heading {
+  text-align: center;
+}
+
+.work-heading h2 {
+  font-size: 35px;
+  font-weight: 600;
+  color: #000339;
+}
+
+.work-heading p {
+  color: #000339;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.work-icon img {
+  width: 48px;
+  padding-bottom: 18px;
+}
+
+.work-icon h3 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #3b3c45;
+}
+
+.navigate a {
+  font-size: 14px;
+  font-weight: 600;
+  color: #0689ff;
+}
+
+.navigate {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #0689ff;
+}
+
+.work-icon {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 200px;
+}
+
+.work-guidlines-button button {
+  background-color: #0f1b4c;
+  border-style: none;
+  border-radius: 10px;
+  padding: 13px 28px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #f2f4f8;
+  margin-top: 32px;
+}
+
+.work-button {
+  margin: auto;
+  margin-bottom: 100px;
+}
+/* How its works Ends */
+
+/* =============================== */
+
+/* featured-properties css Start */
+.featured-properties {
+  background-color: #f5fafe;
+  padding: 100px 0;
+}
+
+.feature-pro-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 60px;
+}
+
+.feature-properties h1 {
+  color: #000339;
+  font-size: 35px;
+  font-weight: 600px;
+}
+
+.feature-properties p {
+  color: #5a6473;
+  font-size: 16px;
+  font-weight: 400px;
+}
+
+.view-properties {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.view-properties p a {
+  color: #0689ff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* ----- */
+.feature-gellery-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature-gellery {
+  width: 31%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.feature-specifiction {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.feature-gellery-img img {
+  width: 100%;
+  height: 227px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.feature-price-des {
+  padding-bottom: 20px;
+}
+
+.feature-price-des h2 {
+  color: #000339;
+  font-size: 20px;
+  font-weight: 600px;
+}
+
+.feature-price-des p {
+  color: #a3a6ab;
+  font-size: 14px;
+  font-weight: 500px;
+}
+
+.feature-three-spec {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature-quantity-des {
+  color: #4d4d52;
+  font-size: 14px;
+  font-weight: 500px;
+}
+
+.feature-quantity-des {
+  color: #0689ff;
+}
+/* featured-properties CSS End */
+
+/* Feature 02: Neighborhood CSS Start */
+.feature-two-section {
+  padding: 100px 0;
+}
+
+.feature-two-img-info {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 80px;
+}
+
+.feature-two-img {
+  width: 50%;
+}
+.feature-two-img img {
+  width: 100%;
+  display: inline-block;
+}
+
+.feature-two-info {
+  width: 50%;
+  padding-left: 10%;
+  padding-right: 5%;
+}
+
+hr {
+  border: 1.5px solid black;
+  width: 40px;
+}
+
+.feature-two-info h2 {
+  color: #000339;
+  font-weight: 400px;
+  font-size: 35px;
+  line-height: 45px;
+  padding-bottom: 20px;
+}
+
+.feature-two-info p {
+  color: #5a6473;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.feature-two-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.feature-two-card {
+  width: 30%;
+  text-align: center;
+}
+
+.feature-two-card h1 {
+  color: #000339;
+  font-weight: 600px;
+  font-size: 64px;
+  line-height: 64px;
+  padding-bottom: 20px;
+}
+
+.feature-two-card p {
+  color: #7b8087;
+  font-weight: 500px;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+/* Feature Section 02 CSS End */
+
+/* ------------------------------------ */
+
+/* Feature Three Properties CSS Start */
+
+.feature-properties-three {
+  padding-bottom: 100px;
+}
+
+.feature-three-row {
+  display: flex;
+  background-color: #063183;
+  /* padding: 60px; */
+  border-radius: 20px;
+  height: 350px;
+}
+
+.feature-three-info {
+  width: 50%;
+  padding: 60px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.feature-three-info h2 {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 35px;
+  padding-bottom: 20px;
+}
+
+.feature-three-info p {
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 16px;
+  padding-bottom: 30px;
+}
+
+.feature-properties-three-button button {
+  background-color: #ffffff;
+  border-style: none;
+  border-radius: 10px;
+  padding: 13px 28px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #063183;
+  /* margin-top: 32px; */
+}
+
+.feature-three-img {
+  width: 50%;
+  padding-left: 10%;
+}
+
+.feature-three-img img {
+  margin-top: -50px;
+  height: 400px;
+  object-fit: cover;
+}
+
+/* Feature Three Properties CSS End */
+
+/* ----------------------------------- */
+
+/* Footer Section Css Start */
+
+.footer-section {
+  padding-bottom: 50px;
+}
+
+.footer {
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.footer-col {
+  width: 25%;
+}
+
+.footer-col h3 {
+  color: #1c1c1d;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  padding-bottom: 30px;
+}
+
+.footer-list ul li {
+  color: #1c1c1d;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 15px;
+}
+
+.social-media-icon i {
+  color: #646464;
+  padding-right: 10px;
+  width: 28px;
+}
+
+.footer-bottom-owerinfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-ownerinfo {
+  color: #727272;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  padding-bottom: 15px;
+}
+
+/* Footer Section Css End */
